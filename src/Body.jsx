@@ -11,15 +11,15 @@ import Sports from './pages/Sports'
 function Body() {
   return (
     <>
-    <Routes>
-        <Route path='/' element={<Home/>} />
-        <Route path='/highlights' element={<Highlights/>} />
-        <Route path='/recent' element={<Recent/>}/>
-        <Route path='/international' element={<International/>}/>
-        <Route path='/political' element={<Political/>}/>
-        <Route path='/finance' element={<Finance/>}/>
-        <Route path='/sports' element={<Sports/>}/>
-    </Routes>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/highlights' element={<Highlights />} />
+        <Route path='/recent' element={<Recent />} />
+        <Route path='/international' element={<International />} />
+        <Route path='/political' element={<Political />} />
+        <Route path='/finance' element={<Finance />} />
+        <Route path='/sports' element={<Sports />} />
+      </Routes>
     </>
   )
 }
