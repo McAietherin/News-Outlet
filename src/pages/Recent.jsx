@@ -1,12 +1,13 @@
 import React from 'react'
 import cont from '../assets/Data'
+import { Link } from 'react-router-dom'
 
 function Recent() {
   return (
     <div className='bods'>
       {cont.map((article) => (
         <div key={article.id} className="article-card">
-          <div className='bgthumb'>
+          <Link key={article.id} to={`/article/${article.id}`}><div className='bgthumb'>
             <div style={{ backgroundImage: `url(${article.thumbnail_url})` }} className='blur' ></div>
             <div style={{ backgroundImage: `url(${article.thumbnail_url})` }} className='imgthumb'>
               <div>
@@ -14,15 +15,14 @@ function Recent() {
                 <p>{article.published_at}</p>
               </div>
             </div>
-          </div>
+          </div></Link>
           <div className='contents'>
             <p>{article.summary}</p>
-            <a href={`/articles/${article.id}`} className='fred'>Read More</a>
+            <Link key={article.id} to={`/article/${article.id}`} className='fred'>Read More</Link>
           </div>
           <div className='lien'></div>
         </div>
       ))}
-
     </div>
   )
 }

@@ -7,6 +7,7 @@ import International from './pages/International'
 import Political from './pages/Political'
 import Finance from './pages/Finance'
 import Sports from './pages/Sports'
+import Articles from './artcls/[aid]/Articles'
 
 function Body() {
   return (
@@ -19,6 +20,7 @@ function Body() {
         <Route path='/political' element={<Political />} />
         <Route path='/finance' element={<Finance />} />
         <Route path='/sports' element={<Sports />} />
+        <Route path='/article/:aid' element={<Articles />}/>
       </Routes>
     </>
   )

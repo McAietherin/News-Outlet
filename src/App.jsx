@@ -27,9 +27,9 @@ function App() {
           <Link to={'/'}><div id='logo'>
             <img src={logo} alt="logo" />
           </div></Link>
-          <div id='banner'>
+          <Link to={'/'}><div id='banner'>
             <img src={banner} alt="banner" />
-          </div>
+          </div></Link>
         </div>
       </header>
       <nav>
