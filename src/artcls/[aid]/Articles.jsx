@@ -15,7 +15,6 @@ function Articles() {
             <div dangerouslySetInnerHTML={{ __html: article.content }} className='deetcont' />
             <hr />
             <p>{article.author.bio}</p>
-
         </div>
     )
 }

@@ -8,7 +8,7 @@ import { Link, useLocation } from 'react-router-dom'
 
 function App() {
   const [count, setCount] = useState(0)
-  const location = useLocation();
+  const location = useLocation()
 
   const navLinks = [
     { to: '/', label: 'Home' },

@@ -1,9 +1,13 @@
 import React from 'react'
+import Advertise from '../assets/Advertise'
 
 function Political() {
   return (
     <div>
-      Political
+      <div className="padder"></div>
+      <p>Political</p>
+      <Advertise />
+      <div className="padder"></div>
     </div>
   )
 }
