@@ -25,6 +25,7 @@ function Home() {
           </div>
         </div>
       ))}
+      <div className="lien"></div>
       <Advertise />
       <div className="newsnow-container">
         {/* ABOUT SECTION */}
@@ -52,6 +53,7 @@ function Home() {
           </ul>
         </section>
 
+        <div className="barr"></div>
         {/* VALUES SECTION */}
         <section className="values">
           <h2>What We Stand For</h2>
@@ -90,6 +92,17 @@ function Home() {
         </section>
       </div>
       <Advertise />
+      <div className='grid'>
+        {cont.slice(0, 8).map((article) => (
+          <div className='smaldiv'>
+            <Link key={article.id} to={`/article/${article.id}`} className='smdimg' style={{ backgroundImage: `url(${article.thumbnail_url})` }}></Link>
+            <Link key={article.id} to={`/article/${article.id}`} className='smdtxt'>
+              <h3>{article.title}</h3>
+              <p>{article.summary}</p>
+            </Link>
+          </div>
+        ))}
+      </div>
     </div>
   )
 }

@@ -340,6 +340,7 @@ body {
   max-width: 85%;
   margin: 0 auto;
   line-height: 1.6;
+  position: relative;
 }
 
 .newsnow-container section {
@@ -382,6 +383,79 @@ body {
   font-weight: bold;
 }
 
-.padder{
+.padder {
   padding: 134px 0;
+}
+
+.smaldiv {
+  background-color: white;
+  display: flex;
+  height: 233px;
+  align-items: center;
+}
+
+.smdimg {
+  width: 60%;
+  margin: 20px 10px 20px 20px;
+  height: 194px;
+  background-size: cover;
+}
+
+.smdtxt {
+  width: 40%;
+  margin: 20px 20px 20px 10px;
+  height: 194px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.smdtxt p {
+  height: 60%;
+  overflow: auto;
+}
+
+.grid {
+  width: 85%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px 53px;
+  margin-bottom: 70px;
+  margin-top: -10px;
+}
+
+.smaldiv a {
+  text-decoration: none;
+  color: black;
+}
+
+.padder1 {
+  margin: 60px 0;
+}
+
+.grid2 {
+  width: 85%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  margin-bottom: 70px;
+  margin-top: -10px;
+}
+
+.smaldiv:hover {
+  transform: scale(1.01);
+  box-shadow: 1px 1px 5px 1px #808080a3;
+}
+
+.barr {
+  background-color: #8080809e;
+  transform: rotate(162deg);
+  width: 3000px;
+  height: 362px;
+  position: absolute;
+  top: 11%;
+  left: -31%;
+  z-index: -1;
 }
