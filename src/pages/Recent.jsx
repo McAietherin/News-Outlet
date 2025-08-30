@@ -19,7 +19,7 @@ function Recent() {
           </div></Link>
           <div className='contents'>
             <p>{article.summary}</p>
-            <Link key={article.id} to={`/article/${article.id}`} className='fred'>Read More</Link>
+            <Link key={article.id} to={`/article/${article.id}`} className={"fred" + "summs"}>Read More</Link>
           </div>
           <div className='lien'></div>
         </div>
@@ -38,7 +38,7 @@ function Recent() {
           </div></Link>
           <div className='contents'>
             <p>{article.summary}</p>
-            <Link key={article.id} to={`/article/${article.id}`} className='fred'>Read More</Link>
+            <Link key={article.id} to={`/article/${article.id}`} className={"fred" + "summs"}>Read More</Link>
           </div>
           <div className='lien'></div>
         </div>
@@ -57,7 +57,7 @@ function Recent() {
           </div></Link>
           <div className='contents'>
             <p>{article.summary}</p>
-            <Link key={article.id} to={`/article/${article.id}`} className='fred'>Read More</Link>
+            <Link key={article.id} to={`/article/${article.id}`} className={"fred" + "summs"}>Read More</Link>
           </div>
           <div className='lien'></div>
         </div>

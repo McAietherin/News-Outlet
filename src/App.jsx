@@ -50,9 +50,9 @@ function App() {
         <Body />
         <div id='footer'>
           <div className="cont3">
-            <div id='logi'>
+            <Link to={'/'}><div id='logi'>
               <img src={logo_inv} alt="inverted logo" />
-            </div>
+            </div></Link>
             <div className='cent'>
               <div className='ceng'>
                 <p>Follow us on</p>

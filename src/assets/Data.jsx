@@ -19,7 +19,7 @@ let cont = [
     "category": "Tech & Crypto",
     "tags": ["AI", "Bitcoin", "Innovation", "Finance", "Blockchain", "Artificial Intelligence", "DeFi"],
     "published_at": "Kathmandu, August 12 2025",
-    "thumbnail_url": picture1
+    "thumbnail_url": picture1,
   },
   {
     "id": "bw-20250822-presale-hype",

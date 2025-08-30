@@ -6,19 +6,113 @@ import cont from "../assets/Data"
 function International() {
   return (
     <div>
-      <div className="padder"></div>
-      <div className="flec">
-        {cont.slice(0, 1).map((article) => (
-          <div className="imgur" style={{ backgroundImage: `url(${article.thumbnail_url})` }}></div>
-        ))}
+      <div className="flegges">
+        <div className="flec">
+          {cont.slice(4, 5).map((article) => (
+            <div className="contens">
+              <Link key={article.id} to={`/article/${article.id}`}><div className="imgur" style={{ backgroundImage: `url(${article.thumbnail_url})` }}>
+              </div></Link>
+              <h2 className='summs'>{article.title}</h2>
+              <p className='sms'>--{article.author.name}</p>
+              <p className='sms'>{article.published_at}</p>
+              <p className='summs'>{article.summary}</p>
+              <div className="spacer"></div>
+              <Link key={article.id} to={`/article/${article.id}`} className={"fred" + "summs"}>Read More</Link>
+            </div>
+          ))}
+        </div>
         <div className='grid2'>
-          {cont.slice(0, 8).map((article) => (
+          {cont.slice(0, 3).map((article) => (
             <div className='smaldiv'>
               <Link key={article.id} to={`/article/${article.id}`} className='smdimg' style={{ backgroundImage: `url(${article.thumbnail_url})` }}></Link>
               <Link key={article.id} to={`/article/${article.id}`} className='smdtxt'>
                 <h3>{article.title}</h3>
                 <p>{article.summary}</p>
               </Link>
+            </div>
+          ))}
+        </div>
+      </div>
+      <Advertise />
+      <div className="flegges2">
+        <div className='grid2'>
+          {cont.slice(3, 6).map((article) => (
+            <div className='smaldiv'>
+              <Link key={article.id} to={`/article/${article.id}`} className='smdimg' style={{ backgroundImage: `url(${article.thumbnail_url})` }}></Link>
+              <Link key={article.id} to={`/article/${article.id}`} className='smdtxt'>
+                <h3>{article.title}</h3>
+                <p>{article.summary}</p>
+              </Link>
+            </div>
+          ))}
+        </div>
+        <div className="flec">
+          {cont.slice(5, 6).map((article) => (
+            <div className="contens">
+              <Link key={article.id} to={`/article/${article.id}`}><div className="imgur" style={{ backgroundImage: `url(${article.thumbnail_url})` }}>
+              </div></Link>
+              <h2 className='summs'>{article.title}</h2>
+              <p className='sms'>--{article.author.name}</p>
+              <p className='sms'>{article.published_at}</p>
+              <p className='summs'>{article.summary}</p>
+              <div className="spacer"></div>
+              <Link key={article.id} to={`/article/${article.id}`} className={"fred" + "summs"}>Read More</Link>
+            </div>
+          ))}
+        </div>
+      </div>
+      <Advertise />
+      <div className="flegges">
+        <div className="flec">
+          {cont.slice(4, 5).map((article) => (
+            <div className="contens">
+              <Link key={article.id} to={`/article/${article.id}`}><div className="imgur" style={{ backgroundImage: `url(${article.thumbnail_url})` }}>
+              </div></Link>
+              <h2 className='summs'>{article.title}</h2>
+              <p className='sms'>--{article.author.name}</p>
+              <p className='sms'>{article.published_at}</p>
+              <p className='summs'>{article.summary}</p>
+              <div className="spacer"></div>
+              <Link key={article.id} to={`/article/${article.id}`} className={"fred" + "summs"}>Read More</Link>
+            </div>
+          ))}
+        </div>
+        <div className='grid2'>
+          {cont.slice(0, 3).map((article) => (
+            <div className='smaldiv'>
+              <Link key={article.id} to={`/article/${article.id}`} className='smdimg' style={{ backgroundImage: `url(${article.thumbnail_url})` }}></Link>
+              <Link key={article.id} to={`/article/${article.id}`} className='smdtxt'>
+                <h3>{article.title}</h3>
+                <p>{article.summary}</p>
+              </Link>
+            </div>
+          ))}
+        </div>
+      </div>
+      <Advertise />
+      <div className="flegges2">
+        <div className='grid2'>
+          {cont.slice(3, 6).map((article) => (
+            <div className='smaldiv'>
+              <Link key={article.id} to={`/article/${article.id}`} className='smdimg' style={{ backgroundImage: `url(${article.thumbnail_url})` }}></Link>
+              <Link key={article.id} to={`/article/${article.id}`} className='smdtxt'>
+                <h3>{article.title}</h3>
+                <p>{article.summary}</p>
+              </Link>
+            </div>
+          ))}
+        </div>
+        <div className="flec">
+          {cont.slice(5, 6).map((article) => (
+            <div className="contens">
+              <Link key={article.id} to={`/article/${article.id}`}><div className="imgur" style={{ backgroundImage: `url(${article.thumbnail_url})` }}>
+              </div></Link>
+              <h2 className='summs'>{article.title}</h2>
+              <p className='sms'>--{article.author.name}</p>
+              <p className='sms'>{article.published_at}</p>
+              <p className='summs'>{article.summary}</p>
+              <div className="spacer"></div>
+              <Link key={article.id} to={`/article/${article.id}`} className={"fred" + "summs"}>Read More</Link>
             </div>
           ))}
         </div>

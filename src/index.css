@@ -399,6 +399,7 @@ body {
   margin: 20px 10px 20px 20px;
   height: 194px;
   background-size: cover;
+  background-position: center;
 }
 
 .smdtxt {
@@ -435,13 +436,9 @@ body {
 }
 
 .grid2 {
-  width: 85%;
-  margin: auto;
   display: grid;
   grid-template-columns: 1fr;
   gap: 40px;
-  margin-bottom: 70px;
-  margin-top: -10px;
 }
 
 .smaldiv:hover {
@@ -458,4 +455,40 @@ body {
   top: 11%;
   left: -31%;
   z-index: -1;
+}
+
+.imgur{
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.flegges, .flegges2{
+  width: 85%;
+  margin: auto;
+  display: grid;
+  gap: 45px;
+  margin-bottom: 80px;
+}
+
+.flegges{
+  grid-template-columns: 3fr 2fr;
+  margin-top: 50px;
+}
+
+.summs{
+  margin-top: 25px;
+}
+
+.sms{
+  margin-top: 5px;
+}
+
+.flegges2{
+  grid-template-columns: 2fr 3fr;
+}
+
+
+.spacer{
+  margin: 25px 0;
 }

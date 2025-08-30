@@ -20,7 +20,7 @@ function Body() {
         <Route path='/political' element={<Political />} />
         <Route path='/finance' element={<Finance />} />
         <Route path='/sports' element={<Sports />} />
-        <Route path='/article/:aid' element={<Articles />}/>
+        <Route path='/article/:aid' element={<Articles />} />
       </Routes>
     </>
   )
