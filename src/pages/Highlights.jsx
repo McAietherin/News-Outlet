@@ -8,7 +8,7 @@ function Highlights() {
     <div>
       <div className="padder1"></div>
       <div className='grid'>
-        {cont.map((article) => (
+        {cont.slice(0, 12).map((article) => (
           <div className='smaldiv'>
             <Link key={article.id} to={`/article/${article.id}`} className='smdimg' style={{ backgroundImage: `url(${article.thumbnail_url})` }}></Link>
             <Link key={article.id} to={`/article/${article.id}`} className='smdtxt'>
@@ -20,7 +20,7 @@ function Highlights() {
       </div>
       <Advertise />
       <div className='grid'>
-        {cont.map((article) => (
+        {cont.slice(12, 24).map((article) => (
           <div className='smaldiv'>
             <Link key={article.id} to={`/article/${article.id}`} className='smdimg' style={{ backgroundImage: `url(${article.thumbnail_url})` }}></Link>
             <Link key={article.id} to={`/article/${article.id}`} className='smdtxt'>

@@ -7,7 +7,6 @@ import picture6 from "./picture6.png"
 import picture7 from "./picture7.png"
 import picture8 from "./picture8.png"
 import picture9 from "./picture9.png"
-import picture10 from "./picture10.png"
 
 let cont = [
   {
@@ -20,6 +19,7 @@ let cont = [
     "tags": ["AI", "Bitcoin", "Innovation", "Finance", "Blockchain", "Artificial Intelligence", "DeFi"],
     "published_at": "Kathmandu, August 12 2025",
     "thumbnail_url": picture1,
+    "select": "Tech"
   },
   {
     "id": "bw-20250822-presale-hype",
@@ -30,7 +30,8 @@ let cont = [
     "category": "Cryptocurrency",
     "tags": ["Presale", "Tokens", "Risk", "Utility", "DeFi", "Crypto Investment"],
     "published_at": "Kathmandu, August 11 2025",
-    "thumbnail_url": picture2
+    "thumbnail_url": picture2,
+    "select": "Finance"
   },
   {
     "id": "bw-20250821-nepal-tech-boom",
@@ -41,7 +42,8 @@ let cont = [
     "category": "Technology",
     "tags": ["Nepal", "Startups", "Innovation", "Tech Ecosystem"],
     "published_at": "Birgunj, August 11 2025",
-    "thumbnail_url": picture3
+    "thumbnail_url": picture3,
+    "select": "Finance"
   },
   {
     "id": "bw-20250820-figma-revolution",
@@ -52,7 +54,8 @@ let cont = [
     "category": "Design",
     "tags": ["Figma", "Design Systems", "Collaboration", "UI/UX"],
     "published_at": "Kathmandu, August 10 2025",
-    "thumbnail_url": picture4
+    "thumbnail_url": picture4,
+    "select": "Tech"
   },
   {
     "id": "bw-20250819-color-branding",
@@ -63,7 +66,8 @@ let cont = [
     "category": "Design & Media",
     "tags": ["Color Theory", "Branding", "News", "Design Psychology"],
     "published_at": "Kathmandu, August 10 2025",
-    "thumbnail_url": picture5
+    "thumbnail_url": picture5,
+    "select": "International"
   },
   {
     "id": "bw-20250818-ethereum-upgrade",
@@ -74,7 +78,8 @@ let cont = [
     "category": "Blockchain Development",
     "tags": ["Ethereum", "Upgrade", "Scalability", "Smart Contracts", "DeFi"],
     "published_at": "Pokhara, August 9 2025",
-    "thumbnail_url": picture6
+    "thumbnail_url": picture6,
+    "select": "Finance"
   },
   {
     "id": "bw-20250817-ai-journalism-ethics",
@@ -85,7 +90,8 @@ let cont = [
     "category": "Media & Ethics",
     "tags": ["AI", "Journalism", "Ethics", "Automation", "Media Integrity"],
     "published_at": "Kathmandu, August 9 2025",
-    "thumbnail_url": picture7
+    "thumbnail_url": picture7,
+    "select": "Political"
   },
   {
     "id": "bw-20250816-css-layout-battle",
@@ -96,7 +102,8 @@ let cont = [
     "category": "Web Development",
     "tags": ["CSS", "Grid", "Flexbox", "Responsive Design", "Web Layout"],
     "published_at": "Kathmandu, August 8 2025",
-    "thumbnail_url": picture8
+    "thumbnail_url": picture8,
+    "select": "International"
   },
   {
     "id": "bw-20250815-crypto-scams",
@@ -107,7 +114,8 @@ let cont = [
     "category": "Crypto Security",
     "tags": ["Scams", "Security", "Crypto", "DeFi Safety"],
     "published_at": "Kathmandu, August 8 2025",
-    "thumbnail_url": picture9
+    "thumbnail_url": picture9,
+    "select": "Finance"
   }
   ,
   {
@@ -119,8 +127,202 @@ let cont = [
     "category": "Engineering",
     "tags": ["API", "News", "Architecture", "Backend", "Scalability"],
     "published_at": "Kathmandu, August 8 2025",
-    "thumbnail_url": picture10
-  }
+    "thumbnail_url": "https://tse2.mm.bing.net/th/id/OIP.EjAL2jn03BXr8OOlqUFm7gHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "select": "International"
+  },
+  {
+    "id": "bw-20250818-nft-security",
+    "title": "NFT Safety 101: Protecting Your Digital Collectibles",
+    "summary": "From phishing links to counterfeit art, here’s how to keep your NFTs secure.",
+    "content": "<p>Non-fungible tokens (NFTs) have exploded in popularity, turning digital art, collectibles, and even virtual land into valuable assets. However, this growth has also attracted bad actors looking to exploit unsuspecting investors and creators. Whether you’re a collector, artist, or trader, understanding the risks around NFTs is essential to protecting your digital assets.</p><br>\n\n<h2>Common NFT Scams</h2>\n<p>Much like cryptocurrencies, NFTs are not immune to fraud. Some of the most frequent scams include:</p>\n<ul>\n<li><strong>Phishing Links:</strong> Scammers send links via social media or email that mimic legitimate marketplaces, tricking users into connecting wallets and approving malicious transactions.</li>\n<li><strong>Counterfeit NFTs:</strong> Fraudsters mint fake digital art or plagiarize real creators, then list them on marketplaces as originals.</li>\n<li><strong>Pump-and-Dump Collections:</strong> Coordinated groups artificially hype NFT projects, inflate floor prices, and then quickly exit, leaving buyers with worthless assets.</li>\n<li><strong>Discord and Social Media Takeovers:</strong> Hackers hijack official accounts of NFT projects to announce fake giveaways or drops, luring victims into sending funds.</li>\n</ul><br>\n\n<h2>How to Stay Safe</h2>\n<p>Protecting yourself in the NFT space requires vigilance. Always verify the authenticity of the marketplace, project website, and social media accounts before engaging. Use hardware wallets whenever possible, as browser wallets are more vulnerable to attacks. Cross-check the creator’s identity and portfolio across multiple platforms to ensure authenticity. Avoid clicking on unverified links, and be cautious of offers that seem too good to be true.</p><br>\n\n<h2>Legal & Ethical Considerations</h2>\n<p>Aside from scams, NFTs also raise concerns about copyright infringement and intellectual property theft. Always confirm that the NFT you’re purchasing is minted by the rightful creator. Supporting authentic artists not only reduces fraud but also strengthens the overall ecosystem.</p><br>\n\n<h2>Community and Tools</h2>\n<p>Engage with trusted communities that actively flag suspicious projects. Tools like reverse image searches and blockchain explorers can help verify authenticity. Marketplaces are increasingly adding verification systems, but investors must still perform independent research before making purchases.</p><br>\n\n<h2>Conclusion</h2>\n<p>NFTs offer exciting opportunities for creators and collectors, but security risks remain high. By staying vigilant, practicing safe wallet management, and critically evaluating every project, you can enjoy the NFT space without falling victim to scams. <a href='/nft-safety-guide'>Learn more about NFT security</a>.</p>",
+    "author": {
+      "name": "Anisha Shrestha",
+      "bio": "Blockchain analyst and NFT enthusiast.",
+      "profile_url": "/authors/anisha-shrestha"
+    },
+    "category": "Crypto Security",
+    "tags": ["NFTs", "Security", "Blockchain", "Digital Art"],
+    "published_at": "Kathmandu, August 18 2025",
+    "thumbnail_url": "https://cdn.pixabay.com/photo/2023/01/08/10/21/nft-7704898_1280.jpg",
+    "select": "Finance"
+  },
+  {
+    "id": "bw-20250822-defi-risks",
+    "title": "DeFi Risks 101: How to Avoid Losing Your Crypto",
+    "summary": "Smart contracts, liquidity traps, and governance exploits—what every DeFi user should know.",
+    "content": "<p>Decentralized Finance (DeFi) has revolutionized the way people trade, borrow, and earn interest on crypto assets. By removing traditional intermediaries, DeFi offers freedom, transparency, and innovation. But this same openness comes with risks that can cost investors everything if ignored. Understanding these vulnerabilities is crucial for anyone venturing into the DeFi world.</p><br>\n\n<h2>Major DeFi Risks</h2>\n<p>Unlike centralized platforms, DeFi projects rely heavily on smart contracts and community governance. Some of the biggest risks include:</p>\n<ul>\n<li><strong>Smart Contract Bugs:</strong> A single flaw in code can be exploited by hackers, draining millions in minutes.</li>\n<li><strong>Liquidity Pool Risks:</strong> Investors who provide liquidity may suffer from impermanent loss when token values shift dramatically.</li>\n<li><strong>Flash Loan Attacks:</strong> Exploiters borrow large sums without collateral to manipulate token prices or drain protocols.</li>\n<li><strong>Governance Exploits:</strong> Bad actors may accumulate governance tokens to push malicious proposals and seize control of a protocol.</li>\n</ul><br>\n\n<h2>Red Flags to Watch</h2>\n<p>Spotting weak or dangerous DeFi projects early can save you from losses. Common warning signs include:</p>\n<ul>\n<li>Unverified or unaudited smart contracts with no third-party security checks.</li>\n<li>Anonymous developers with no community track record.</li>\n<li>Overly complex tokenomics designed to confuse investors rather than add value.</li>\n<li>Extremely high yields that seem unsustainable compared to the broader market.</li>\n</ul><br>\n\n<h2>Protective Strategies</h2>\n<p>To reduce risk, investors should always research before committing funds. Look for projects with <a href='/defi-smart-contract-audits'>audited smart contracts</a>, active communities, and transparent developer teams. Start with small investments, diversify across multiple platforms, and never risk more than you can afford to lose. Use secure wallets, and keep the majority of assets off exchanges or hot wallets.</p><br>\n\n<h2>Staying Ahead</h2>\n<p>The DeFi space evolves quickly, with new protocols launching daily. Staying updated through reputable news outlets, security researchers, and crypto watchdog groups is key. Participating in community discussions also helps identify red flags early and avoid emerging threats.</p><br>\n\n<h2>Conclusion</h2>\n<p>DeFi offers unprecedented financial freedom, but with freedom comes responsibility. By recognizing risks, practicing caution, and focusing on security, investors can take part in the decentralized economy without becoming easy targets. <a href='/defi-safety-guide'>Learn more about DeFi safety</a>.</p>",
+    "author": {
+      "name": "Ravi Koirala",
+      "bio": "DeFi researcher and blockchain auditor.",
+      "profile_url": "/authors/ravi-koirala"
+    },
+    "category": "Crypto Security",
+    "tags": ["DeFi", "Security", "Smart Contracts", "Blockchain"],
+    "published_at": "Kathmandu, August 22 2025",
+    "thumbnail_url": "https://images.pexels.com/photos/5435844/pexels-photo-5435844.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+    "select": "Finance"
+  },
+  {
+    "id": "bw-20250825-wallet-safety",
+    "title": "Wallet Safety 101: Keeping Your Crypto Secure",
+    "summary": "From hardware wallets to seed phrase protection—here’s how to safeguard your digital assets.",
+    "content": "<p>Crypto wallets are the gateways to digital assets. Whether you’re storing Bitcoin, Ethereum, or NFTs, your wallet is the vault that protects them. But just like a real vault, it can be cracked if not properly secured. Understanding wallet safety is essential for both beginners and seasoned investors in the crypto world.</p><br>\n\n<h2>Types of Wallets</h2>\n<p>Not all wallets are created equal. The two main categories are:</p>\n<ul>\n<li><strong>Hot Wallets:</strong> Online wallets connected to the internet, convenient but more vulnerable to hacks.</li>\n<li><strong>Cold Wallets:</strong> Offline wallets like hardware devices, considered the most secure way to store crypto long term.</li>\n</ul><br>\n\n<h2>Common Wallet Risks</h2>\n<p>Hackers target wallets using various tactics. Some of the most common risks include:</p>\n<ul>\n<li><strong>Phishing Attacks:</strong> Fake websites and apps trick users into entering private keys or seed phrases.</li>\n<li><strong>Malware:</strong> Keyloggers and clipboard hijackers steal wallet credentials.</li>\n<li><strong>Lost or Exposed Seed Phrases:</strong> Without proper backup, losing a seed phrase means losing funds forever.</li>\n<li><strong>Fake Wallet Apps:</strong> Fraudulent apps on app stores masquerade as legitimate wallets to steal assets.</li>\n</ul><br>\n\n<h2>Best Practices for Safety</h2>\n<p>Protecting your wallet requires discipline and awareness. Always generate and store seed phrases offline, preferably written on paper or stored in a fireproof metal backup. Enable two-factor authentication (2FA) for exchanges and online wallets. Regularly update wallet software and never download from unverified sources. For larger holdings, consider using a <a href='/crypto-hardware-wallets'>hardware wallet</a> for maximum security.</p><br>\n\n<h2>Advanced Protection</h2>\n<p>For high-value portfolios, multi-signature wallets add an extra layer of security by requiring multiple private keys to authorize transactions. Institutional investors often use custodial services with insurance to safeguard digital assets.</p><br>\n\n<h2>Conclusion</h2>\n<p>Wallet safety is the foundation of crypto security. By choosing the right type of wallet, safeguarding seed phrases, and staying alert to scams, investors can dramatically reduce the risk of theft. In a space where transactions are irreversible, prevention is the best protection. <a href='/wallet-security-guide'>Learn more about wallet safety</a>.</p>",
+    "author": {
+      "name": "Sanjay Bhattarai",
+      "bio": "Cybersecurity expert focused on digital asset protection.",
+      "profile_url": "/authors/sanjay-bhattarai"
+    },
+    "category": "Crypto Security",
+    "tags": ["Wallets", "Security", "Hardware Wallets", "Crypto"],
+    "published_at": "Kathmandu, August 25 2025",
+    "thumbnail_url": "https://tse1.explicit.bing.net/th/id/OIP.xLI9xcDV6wzgQqav02dmeAHaE5?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "select": "Finance"
+  },
+  {
+    "id": "bw-20250828-exchange-hacks",
+    "title": "Exchange Hacks 101: Lessons from the Biggest Breaches",
+    "summary": "Billions lost to exchange hacks—here’s how to protect your assets.",
+    "content": "<p>Centralized exchanges (CEXs) are the entry point for most people into the world of cryptocurrency. They offer convenience, liquidity, and a wide range of trading pairs. However, they also represent lucrative targets for hackers. Over the past decade, billions of dollars have been stolen from exchanges, reminding users that security should never be taken for granted.</p><br>\n\n<h2>History of Major Hacks</h2>\n<p>Some of the most infamous exchange breaches include:</p>\n<ul>\n<li><strong>Mt. Gox (2014):</strong> Over 850,000 BTC lost, marking one of the largest crypto disasters in history.</li>\n<li><strong>Coincheck (2018):</strong> $530 million worth of NEM tokens stolen due to poor security protocols.</li>\n<li><strong>Binance (2019):</strong> Hackers stole 7,000 BTC, but the exchange covered user losses through its SAFU fund.</li>\n<li><strong>FTX Collapse (2022):</strong> While not a hack, mismanagement and fraud wiped out billions, showing exchange risk isn’t only external.</li>\n</ul><br>\n\n<h2>Why Exchanges Get Hacked</h2>\n<p>Exchanges hold large amounts of crypto in hot wallets, making them prime targets. Vulnerabilities include:</p>\n<ul>\n<li>Poorly secured private keys.</li>\n<li>Insufficient internal controls.</li>\n<li>Social engineering attacks on staff.</li>\n<li>Weak auditing and monitoring systems.</li>\n</ul><br>\n\n<h2>Protecting Yourself</h2>\n<p>Users can take steps to minimize exposure:</p>\n<ul>\n<li>Never store large amounts of crypto on exchanges.</li>\n<li>Withdraw assets to a secure hardware wallet after trades.</li>\n<li>Enable two-factor authentication (2FA) and withdrawal whitelists.</li>\n<li>Choose exchanges with insurance funds and transparent security practices.</li>\n</ul><br>\n\n<h2>Future of Exchange Security</h2>\n<p>Many exchanges are now adopting multi-signature wallets, proof-of-reserves audits, and decentralized custody solutions. Still, the principle of “not your keys, not your coins” remains the golden rule for crypto safety.</p><br>\n\n<h2>Conclusion</h2>\n<p>Exchange hacks have cost users billions, but the lessons are clear: centralized platforms carry inherent risks. By limiting exposure and securing funds in private wallets, investors can enjoy trading without leaving their wealth vulnerable. <a href='/exchange-security-guide'>Learn more about exchange safety</a>.</p>",
+    "author": {
+      "name": "Priya Manandhar",
+      "bio": "Financial journalist covering crypto exchanges and digital asset security.",
+      "profile_url": "/authors/priya-manandhar"
+    },
+    "category": "Crypto Security",
+    "tags": ["Exchanges", "Security", "Crypto Hacks", "CEX"],
+    "published_at": "Kathmandu, August 28 2025",
+    "thumbnail_url": "https://static.vecteezy.com/system/resources/previews/009/484/991/original/money-currency-exchange-and-money-transfer-on-stock-exchange-currencies-dollar-euro-pound-yen-banking-international-trading-financial-concept-illustration-free-vector.jpg",
+    "select": "Finance"
+  },
+  {
+    "id": "bw-20250901-phishing-social-engineering",
+    "title": "Phishing & Social Engineering 101: Don’t Take the Bait",
+    "summary": "From fake support agents to urgent scam emails—how to outsmart crypto phishers.",
+    "content": "<p>Phishing and social engineering remain two of the most effective ways scammers steal cryptocurrency. Unlike technical hacks, these attacks target human behavior, exploiting trust, fear, or urgency to trick victims into handing over their funds. Recognizing these tactics is essential for anyone navigating the digital asset space.</p><br>\n\n<h2>Common Phishing Tactics</h2>\n<p>Scammers use multiple strategies to impersonate legitimate sources. Some of the most frequent include:</p>\n<ul>\n<li><strong>Email Phishing:</strong> Fraudulent emails that mimic exchanges or wallet providers, asking users to click malicious links.</li>\n<li><strong>Fake Customer Support:</strong> Impersonators pose as official support agents on Telegram, Discord, or Twitter, requesting seed phrases or private keys.</li>\n<li><strong>Malicious Airdrops:</strong> Users are tricked into connecting wallets to claim “free tokens,” unknowingly granting access to funds.</li>\n<li><strong>Urgency Scams:</strong> Messages warning of account closure or limited-time opportunities that push users to act without thinking.</li>\n</ul><br>\n\n<h2>Red Flags</h2>\n<p>Phishing attempts often share common warning signs:</p>\n<ul>\n<li>Unusual sender addresses or domain names with small spelling variations.</li>\n<li>Requests for sensitive information like private keys or seed phrases (legitimate companies will never ask for these).</li>\n<li>Poor grammar or formatting in official-looking messages.</li>\n<li>Links that redirect to domains slightly different from the official website.</li>\n</ul><br>\n\n<h2>How to Stay Safe</h2>\n<p>Protecting yourself requires awareness and caution. Always double-check URLs, and never click links directly from unsolicited messages. Bookmark official exchange and wallet websites. Enable two-factor authentication wherever possible. When in doubt, contact companies through official channels rather than replying to suspicious messages. <a href='/phishing-prevention-guide'>Learn more about phishing protection</a>.</p><br>\n\n<h2>The Human Factor</h2>\n<p>Social engineering attacks prey on emotions like fear of missing out (FOMO), greed, or panic. Training yourself to slow down and think critically before responding can neutralize these tactics. Communities that share scam alerts also play a vital role in reducing victims.</p><br>\n\n<h2>Conclusion</h2>\n<p>Phishing and social engineering thrive because they exploit human trust. By staying alert, verifying sources, and refusing to share sensitive data, investors can avoid becoming victims. In crypto, skepticism is not cynicism—it’s survival.</p>",
+    "author": {
+      "name": "Maya Gurung",
+      "bio": "Cyber awareness trainer and blockchain educator.",
+      "profile_url": "/authors/maya-gurung"
+    },
+    "category": "Crypto Security",
+    "tags": ["Phishing", "Security", "Social Engineering", "Crypto Safety"],
+    "published_at": "Kathmandu, September 1 2025",
+    "thumbnail_url": "https://images.unsplash.com/photo-1605902711622-cfb43c4437b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+    "select": "Finance"
+  },
+  {
+    "id": "bw-20250902-defi-risks",
+    "title": "DeFi Risks Explained: Navigating the Wild West of Finance",
+    "summary": "From smart contract bugs to rug pulls—understanding risks before you stake.",
+    "content": "<p>Decentralized Finance, or DeFi, has grown into one of the most exciting parts of the crypto ecosystem. By removing intermediaries and allowing users to lend, borrow, and trade directly, DeFi promises financial freedom like never before. However, this freedom comes at a cost—risk. Unlike traditional finance, DeFi operates with fewer safeguards, meaning users must take responsibility for their own safety.</p><br>\n\n<h2>Smart Contract Risks</h2>\n<p>Smart contracts are self-executing programs that run on blockchains. While powerful, they are not immune to bugs. A single vulnerability in code can be exploited by hackers to drain funds. Even audited projects have been compromised, highlighting the importance of caution.</p><br>\n\n<h2>Liquidity Risks</h2>\n<p>Liquidity pools allow users to provide tokens for others to trade. However, sudden withdrawals or manipulation can create losses known as 'impermanent loss.' For newcomers, this can be confusing and financially damaging if not fully understood.</p><br>\n\n<h2>Rug Pulls and Exit Scams</h2>\n<p>Because anyone can launch a token, scammers often create fake projects, attract liquidity, and then disappear with investor funds. These rug pulls are common in meme token ecosystems but can happen anywhere.</p><br>\n\n<h2>How to Protect Yourself</h2>\n<p>Research is your best weapon. Verify the development team, check whether contracts have been audited, and avoid projects that promise unrealistic returns. Diversify investments and never put in more than you can afford to lose. <a href='/defi-safety-guide'>Learn more about staying safe in DeFi</a>.</p><br>\n\n<h2>Conclusion</h2>\n<p>DeFi opens doors to financial innovation but also carries significant risks. Awareness, research, and cautious investing remain key. In the world of DeFi, informed decision-making can mean the difference between profit and total loss.</p>",
+    "author": {
+      "name": "Ravi Shrestha",
+      "bio": "Blockchain analyst and DeFi researcher.",
+      "profile_url": "/authors/ravi-shrestha"
+    },
+    "category": "Crypto Security",
+    "tags": ["DeFi", "Security", "Smart Contracts", "Risk Management"],
+    "published_at": "Kathmandu, September 2 2025",
+    "thumbnail_url": "https://images.unsplash.com/photo-1639322537228-f710d846310a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+    "select": "Finance"
+  },
+  {
+    "id": "bw-20250906-two-factor-authentication",
+    "title": "Two-Factor Authentication: Your Crypto Safety Net",
+    "summary": "Boost your crypto account security with two-factor authentication best practices.",
+    "content": "<p>Two-factor authentication (2FA) is a critical layer of security for protecting your cryptocurrency accounts. By requiring a second form of verification, 2FA makes it much harder for attackers to gain unauthorized access. This guide explains how to implement 2FA effectively.</p><br>\n\n<h2>Why 2FA Matters</h2>\n<p>Without 2FA, a stolen password can give hackers full access to your funds. Common risks include:</p>\n<ul>\n<li><strong>Password Breaches:</strong> Weak or reused passwords can be compromised in data leaks.</li>\n<li><strong>Phishing Attacks:</strong> Fake login pages can steal credentials, bypassing single-factor security.</li>\n<li><strong>Account Takeovers:</strong> Hackers can drain wallets or exchange accounts without additional verification.</li>\n</ul><br>\n\n<h2>Types of 2FA</h2>\n<p>Not all 2FA methods are equal. Consider these options:</p>\n<ul>\n<li><strong>Authenticator Apps:</strong> Apps like Google Authenticator or Authy generate time-based codes, offering strong security.</li>\n<li><strong>Hardware Tokens:</strong> Physical devices like YubiKey provide offline 2FA, immune to remote attacks.</li>\n<li><strong>SMS-Based 2FA:</strong> Less secure due to SIM-swapping risks but better than no 2FA.</li>\n<li><strong>Email-Based 2FA:</strong> Convenient but vulnerable if your email account is compromised.</li>\n</ul><br>\n\n<h2>Setting Up 2FA Safely</h2>\n<p>Maximize 2FA’s effectiveness with these steps:</p>\n<ul>\n<li>Use authenticator apps over SMS or email for better security.</li>\n<li>Back up 2FA recovery codes in a secure, offline location, like a safe.</li>\n<li>Secure your email and phone accounts with strong passwords and 2FA.</li>\n<li>Regularly check your exchange or wallet’s security settings for unauthorized changes.</li>\n<li><a href='/2fa-security-guide'>Learn more about setting up 2FA</a>.</p><br>\n\n<h2>Common Pitfalls</h2>\n<p>Avoid these mistakes:</p>\n<ul>\n<li>Storing recovery codes online or in easily accessible places.</li>\n<li>Using SMS-based 2FA in high-risk environments.</li>\n<li>Failing to update 2FA settings when changing devices or phone numbers.</li>\n</ul><br>\n\n<h2>Conclusion</h2>\n<p>Two-factor authentication is a must-have for anyone holding cryptocurrency. By choosing secure 2FA methods and following best practices, you can significantly reduce the risk of account compromise. Stay proactive and keep security first.</p>",
+    "author": {
+      "name": "Kiran Joshi",
+      "bio": "Cybersecurity strategist and crypto enthusiast.",
+      "profile_url": "/authors/kiran-joshi"
+    },
+    "category": "Crypto Security",
+    "tags": ["Two-Factor Authentication", "Crypto Safety", "Account Security", "Blockchain Protection"],
+    "published_at": "Kathmandu, September 6 2025",
+    "thumbnail_url": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "select": "Finance"
+  },
+  {
+    "id": "bw-20250907-crypto-cold-storage",
+    "title": "Cold Storage: The Ultimate Crypto Security Solution",
+    "summary": "Learn how cold storage can protect your cryptocurrency from online threats.",
+    "content": "<p>Cold storage refers to keeping cryptocurrency offline, away from internet-based threats like hacks and phishing. It’s the gold standard for securing large amounts of crypto. This guide explores cold storage options and best practices to keep your assets safe.</p><br>\n\n<h2>What is Cold Storage?</h2>\n<p>Cold storage involves storing private keys or seed phrases in an offline environment. Common methods include:</p>\n<ul>\n<li><strong>Hardware Wallets:</strong> Devices like Ledger or Trezor that store keys offline and connect only for transactions.</li>\n<li><strong>Paper Wallets:</strong> Printed QR codes or text containing private keys or seed phrases, kept in a secure location.</li>\n<li><strong>Air-Gapped Devices:</strong> Computers or devices never connected to the internet, used solely for managing crypto.</li>\n</ul><br>\n\n<h2>Benefits of Cold Storage</h2>\n<p>Cold storage offers unmatched security by:</p>\n<ul>\n<li>Protecting against online hacks, malware, and phishing attacks.</li>\n<li>Ensuring funds remain safe even if an exchange or online wallet is compromised.</li>\n<li>Providing long-term storage for hodlers who don’t need frequent access.</li>\n</ul><br>\n\n<h2>Best Practices for Cold Storage</h2>\n<p>Maximize security with these tips:</p>\n<ul>\n<li><strong>Store Securely:</strong> Keep hardware or paper wallets in a fireproof, waterproof safe or safety deposit box.</li>\n<li><strong>Backup Seed Phrases:</strong> Create multiple offline backups of your seed phrase, stored in separate, secure locations.</li>\n<li><strong>Avoid Digital Copies:</strong> Never store private keys or seed phrases on internet-connected devices or cloud storage.</li>\n<li><strong>Test Recovery:</strong> Periodically verify that your backups and recovery processes work correctly.</li>\n<li><strong>Use Reputable Devices:</strong> Purchase hardware wallets directly from manufacturers to avoid tampered devices.</li>\n<li><a href='/cold-storage-guide'>Explore our detailed cold storage guide</a>.</p><br>\n\n<h2>Potential Risks</h2>\n<p>While secure, cold storage has challenges:</p>\n<ul>\n<li>Physical loss or damage to hardware or paper wallets.</li>\n<li>Forgetting or losing access to seed phrases.</li>\n<li>Human error during setup or recovery processes.</li>\n</ul><br>\n\n<h2>Conclusion</h2>\n<p>Cold storage is the safest way to protect your cryptocurrency from digital threats. By choosing reliable methods and following strict security practices, you can ensure your assets remain secure for the long term. Stay cautious and prioritize safety.</p>",
+    "author": {
+      "name": "Dinesh Rai",
+      "bio": "Crypto security advisor and blockchain technology specialist.",
+      "profile_url": "/authors/dinesh-rai"
+    },
+    "category": "Crypto Security",
+    "tags": ["Cold Storage", "Crypto Safety", "Hardware Wallets", "Secure Storage"],
+    "published_at": "Kathmandu, September 7 2025",
+    "thumbnail_url": "https://images.pexels.com/photos/8370752/pexels-photo-8370752.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "select": "Finance"
+  },
+  {
+    "id": "bw-20250905-crypto-taxation",
+    "title": "Crypto Taxation: What You Need to Know",
+    "summary": "Governments are tightening regulations—here’s how to stay compliant.",
+    "content": "<p>As cryptocurrencies continue to grow in adoption, tax authorities worldwide are paying closer attention to digital assets. Whether you’re trading Bitcoin, earning staking rewards, or selling NFTs, chances are you owe taxes. Unfortunately, many investors underestimate the complexity of crypto taxation, leading to fines and legal issues.</p><br>\n\n<h2>How Crypto Is Taxed</h2>\n<p>Most jurisdictions treat cryptocurrencies as property rather than currency. This means profits from selling, trading, or even spending crypto are subject to capital gains tax. Long-term holdings may enjoy reduced tax rates, while short-term trades are usually taxed at higher rates.</p><br>\n\n<h2>Taxable Events in Crypto</h2>\n<ul>\n<li>Selling crypto for fiat currency (e.g., converting Bitcoin to USD).</li>\n<li>Trading one crypto for another (e.g., ETH to SOL).</li>\n<li>Using crypto to purchase goods or services.</li>\n<li>Earning crypto through mining, staking, or yield farming.</li>\n</ul><br>\n\n<h2>Common Mistakes</h2>\n<p>Many investors fail to track all their transactions, assuming only withdrawals to fiat matter. Others forget that even small trades create taxable events. Lack of documentation is a major issue when audits occur.</p><br>\n\n<h2>Tools for Simplification</h2>\n<p>Crypto tax software can help automate record-keeping and reporting. Integrating wallets and exchanges ensures accurate calculations, reducing the risk of errors. <a href='/crypto-tax-guide'>Read our full guide on crypto taxes</a>.</p><br>\n\n<h2>Conclusion</h2>\n<p>Ignoring crypto taxes doesn’t make them disappear. By understanding the rules and keeping accurate records, investors can avoid legal trouble and stay compliant while still benefiting from crypto innovation.</p>",
+    "author": {
+      "name": "Suman Koirala",
+      "bio": "Financial analyst specializing in blockchain taxation.",
+      "profile_url": "/authors/suman-koirala"
+    },
+    "category": "Finance",
+    "tags": ["Taxes", "Crypto", "Compliance", "Finance"],
+    "published_at": "Kathmandu, September 5 2025",
+    "thumbnail_url": "https://images.unsplash.com/photo-1589391886645-d51941baf7fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+    "select": "Finance"
+  },
+  {
+    "id": "bw-20250911-crypto-phishing",
+    "title": "Crypto Phishing: How to Avoid Giving Away Your Keys",
+    "summary": "Phishing attacks are one of the most common threats in cryptocurrency—learn how to protect yourself.",
+    "content": "<p>Phishing is a widespread threat in the cryptocurrency ecosystem. Attackers create fake websites, emails, or social media profiles designed to trick users into revealing private keys, seed phrases, or login credentials. Once compromised, funds can be stolen instantly, and due to the irreversible nature of blockchain transactions, there is no way to recover them.</p><br>\n\n<h2>Common Phishing Techniques</h2>\n<ul>\n<li><strong>Fake Wallet Sites:</strong> Lookalike websites prompt users to enter private keys or passwords.</li>\n<li><strong>Email Scams:</strong> Fraudulent emails impersonate exchanges or wallets and request sensitive information.</li>\n<li><strong>Social Media Impersonation:</strong> Scammers pose as influencers or project teams to lure victims.</li>\n<li><strong>Malicious Links:</strong> Phishing URLs often lead to fake forms that capture credentials.</li>\n</ul><br>\n\n<h2>Warning Signs</h2>\n<p>Be alert to unsolicited messages, typos in URLs, unrealistic offers, and urgent requests for information. Legitimate services never ask for private keys or seed phrases via email or social media. Always double-check website URLs and verify with official channels.</p><br>\n\n<h2>Protective Measures</h2>\n<ul>\n<li>Use hardware wallets to store funds offline.</li>\n<li>Enable two-factor authentication (2FA) for all accounts.</li>\n<li>Bookmark official websites instead of clicking links from messages.</li>\n<li>Keep software and browsers updated to patch vulnerabilities.</li>\n<li>Educate yourself regularly on the latest phishing scams.</li>\n</ul><br>\n\n<h2>Conclusion</h2>\n<p>Phishing remains one of the easiest ways for attackers to steal crypto. Awareness, cautious behavior, and strong security practices are essential to avoid falling victim. By staying vigilant and verifying every interaction, users can protect their digital assets and participate safely in the crypto ecosystem. <a href='/crypto-phishing-guide'>Learn more about preventing crypto phishing</a>.</p>",
+    "author": {
+      "name": "Suman Koirala",
+      "bio": "Cybersecurity expert focusing on blockchain and crypto safety.",
+      "profile_url": "/authors/suman-koirala"
+    },
+    "category": "Crypto Security",
+    "tags": ["Phishing", "Security", "Crypto", "Wallet Safety"],
+    "published_at": "Kathmandu, September 11 2025",
+    "thumbnail_url": "https://static.vecteezy.com/system/resources/thumbnails/018/919/980/small_2x/3d-illustration-of-data-phishing-concept-hacker-and-cyber-criminals-phishing-stealing-private-personal-data-password-email-and-credit-card-online-scam-malware-and-password-phishing-photo.jpg",
+    "select": "Finance"
+  },
+  {
+    "id": "bw-20250907-bitcoin-vs-gold",
+    "title": "Bitcoin vs Gold: Which Is the Better Store of Value?",
+    "summary": "A deep dive into the battle between digital gold and physical gold.",
+    "content": "<p>For centuries, gold has been the ultimate safe-haven asset. It has weathered wars, economic crises, and inflation, consistently maintaining value across generations. But in the 21st century, Bitcoin has emerged as a potential rival, often referred to as 'digital gold.' Investors now debate which of the two is the superior store of value.</p><br>\n\n<h2>Gold’s Strengths</h2>\n<p>Gold has intrinsic properties that make it desirable: scarcity, durability, and universal acceptance. Central banks hold gold reserves, and it remains a hedge against inflation. Its long history gives it unparalleled trust.</p><br>\n\n<h2>Bitcoin’s Advantages</h2>\n<p>Bitcoin, unlike gold, is digital and borderless. It can be transferred instantly across the globe, stored without physical limitations, and verified on a decentralized ledger. Its capped supply of 21 million coins introduces programmed scarcity.</p><br>\n\n<h2>Risks and Weaknesses</h2>\n<p>Gold is cumbersome to store and transport, while Bitcoin remains highly volatile and dependent on technology. Regulatory uncertainty also affects Bitcoin’s adoption as a safe-haven asset.</p><br>\n\n<h2>The Verdict</h2>\n<p>Instead of choosing one over the other, many investors are diversifying into both. Gold provides stability, while Bitcoin offers growth potential and digital convenience. <a href='/bitcoin-vs-gold-analysis'>See our full comparison</a>.</p><br>\n\n<h2>Conclusion</h2>\n<p>The Bitcoin vs Gold debate is far from over. Both assets have merits, and in a diversified portfolio, they may complement each other rather than compete directly.</p>",
+    "author": {
+      "name": "Dipesh Maharjan",
+      "bio": "Economics researcher focusing on macro trends and digital assets.",
+      "profile_url": "/authors/dipesh-maharjan"
+    },
+    "category": "Finance",
+    "tags": ["Bitcoin", "Gold", "Investing", "Economics"],
+    "published_at": "Kathmandu, September 7 2025",
+    "thumbnail_url": "https://static.vecteezy.com/system/resources/thumbnails/009/325/875/small_2x/many-gold-bullions-brighting-on-the-table-photo.jpg",
+    "select": "Finance"
+  },
+  {
+    "id": "bw-20250908-eth-2-staking",
+    "title": "Ethereum 2.0 and Staking: A New Era for Investors",
+    "summary": "Ethereum’s shift to proof-of-stake brings both opportunities and risks.",
+    "content": "<p>Ethereum’s long-awaited upgrade to Ethereum 2.0 has finally transitioned the network from proof-of-work (PoW) to proof-of-stake (PoS). This monumental shift not only reduces energy consumption but also introduces staking as a primary way to earn passive income from ETH holdings.</p><br>\n\n<h2>How Staking Works</h2>\n<p>Instead of miners, Ethereum now relies on validators who stake ETH to secure the network. In return, they earn rewards for validating transactions. This makes ETH holders active participants in network security.</p><br>\n\n<h2>Benefits of Staking</h2>\n<ul>\n<li>Earn rewards in ETH while holding the asset.</li>\n<li>Support the decentralization and security of the Ethereum network.</li>\n<li>Contribute to a greener blockchain ecosystem.</li>\n</ul><br>\n\n<h2>Risks of Staking</h2>\n<p>While attractive, staking carries risks. Validators who act maliciously can be penalized through slashing, resulting in lost funds. Additionally, staked ETH may be locked for a period, limiting liquidity.</p><br>\n\n<h2>Staking Options</h2>\n<p>Users can stake independently by running a validator node or use staking pools and exchanges for convenience. Each option comes with trade-offs in terms of control, fees, and risk.</p><br>\n\n<h2>Conclusion</h2>\n<p>Ethereum 2.0 marks a new era of efficiency and participation. For investors, staking ETH offers both rewards and responsibilities. <a href='/ethereum-staking-guide'>Learn more in our staking guide</a>.</p>",
+    "author": {
+      "name": "Prakash Khadka",
+      "bio": "Blockchain enthusiast and Ethereum researcher.",
+      "profile_url": "/authors/prakash-khadka"
+    },
+    "category": "Crypto",
+    "tags": ["Ethereum", "Staking", "Proof-of-Stake", "ETH2"],
+    "published_at": "Kathmandu, September 8 2025",
+    "thumbnail_url": "https://tse2.mm.bing.net/th/id/OIP.U0mlHQSr5SGFWsDXym--9wHaEZ?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "select": "Finance"
+  },
+
 ]
 
 export default cont
