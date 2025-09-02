@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import './App.css'
 import logo from './assets/logo.png'
 import banner from './assets/banner.png'
@@ -8,7 +8,27 @@ import { Link, useLocation } from 'react-router-dom'
 
 function App() {
   const [count, setCount] = useState(0)
+  const [moved, setMoved] = useState(false)
+  const mennavsRef = useRef(null)
   const location = useLocation()
+  const handleMenuClick = () => {
+    setMoved(true);
+  }
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (mennavsRef.current && !mennavsRef.current.contains(event.target)) {
+        setMoved(false);
+      }
+    };
+
+    if (moved) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [moved]);
 
   const navLinks = [
     { to: '/', label: 'Home' },
@@ -19,7 +39,6 @@ function App() {
     { to: '/finance', label: 'Finance' },
     { to: '/sports', label: 'Sports' },
   ];
-
   return (
     <>
       <header>
@@ -27,11 +46,31 @@ function App() {
           <Link to={'/'}><div id='logo'>
             <img src={logo} alt="logo" />
           </div></Link>
-          <Link to={'/'}><div id='banner'>
+          <Link to={'/'} id='randoguy'><div id='banner'>
             <img src={banner} alt="banner" />
           </div></Link>
+          <div id='menu' onClick={handleMenuClick}>
+            <div id='menicons'><i class="bi bi-list thing"></i></div>
+          </div>
         </div>
       </header>
+      <div id='mennavs' ref={mennavsRef}
+        style={{
+          transition: "right 0.6s ease",
+          right: moved ? "0px" : "-297px"
+        }}
+      >
+        <ul>
+          {navLinks.map(link => (
+            <li
+              key={link.to}
+              className={location.pathname === link.to ? 'slcted' : ''}
+            >
+              <Link to={link.to}>{link.label}</Link>
+            </li>
+          ))}
+        </ul>
+      </div>
       <nav>
         <div className='cont2'>
           <ul>

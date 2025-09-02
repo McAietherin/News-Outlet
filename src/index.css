@@ -457,13 +457,14 @@ body {
   z-index: -1;
 }
 
-.imgur{
+.imgur {
   height: 500px;
   background-size: cover;
   background-position: center;
 }
 
-.flegges, .flegges2{
+.flegges,
+.flegges2 {
   width: 85%;
   margin: auto;
   display: grid;
@@ -471,24 +472,131 @@ body {
   margin-bottom: 80px;
 }
 
-.flegges{
+.flegges {
   grid-template-columns: 3fr 2fr;
   margin-top: 50px;
 }
 
-.summs{
+.summs {
   margin-top: 25px;
 }
 
-.sms{
+.sms {
   margin-top: 5px;
 }
 
-.flegges2{
+.flegges2 {
   grid-template-columns: 2fr 3fr;
 }
 
 
-.spacer{
+.spacer {
   margin: 25px 0;
+}
+
+#menu {
+  display: none;
+}
+
+#mennavs {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  header {
+    background-color: #ee2f20;
+    height: 93px;
+    width: 100%;
+    box-shadow: 0 3px 8px 2px #0000008f;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+  }
+
+  #logo {
+    position: relative;
+    border-radius: 22px;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+  }
+
+  #logo img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #randoguy {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    position: relative;
+    left: -3%;
+  }
+  #menu i{
+    font-size: 42px;
+    font-weight: bold;
+  }
+
+  .cont {
+    max-width: 90%;
+    min-width: 65%;
+  }
+
+  nav {
+    display: none;
+  }
+
+  #mennavs {
+    display: flex;
+    position: fixed;
+    background-color: #212121;
+    height: 120vh;
+    z-index: 25;
+    top: 0;
+    width: 297px;
+  }
+
+  #mennavs ul {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    width: 85%;
+    margin: 20px auto;
+    height: 699px;
+    display: flex;
+    flex-direction: column;
+    background-color: #211a11;
+  }
+  #mennavs ul li{
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid #303030;
+    border-bottom: 1px solid #303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  #root {
+    width: 100vw;
+  }
 }
