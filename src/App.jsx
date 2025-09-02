@@ -15,7 +15,7 @@ function App() {
     { to: '/highlights', label: 'Highlights' },
     { to: '/recent', label: 'Recent' },
     { to: '/international', label: 'International' },
-    { to: '/political', label: 'Political' },
+    { to: '/technology', label: 'Technology' },
     { to: '/finance', label: 'Finance' },
     { to: '/sports', label: 'Sports' },
   ];
