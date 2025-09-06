@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import './App.css'
+import './App.scss'
 import logo from './assets/logo.png'
 import banner from './assets/banner.png'
 import logo_inv from './assets/logo_inv.png'
