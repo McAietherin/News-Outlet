@@ -20,8 +20,12 @@ function Home() {
             </div>
           </Link>
           <div className='contents'>
+            <div id='titles'>
+              <h2>{article.title}</h2>
+              <p>{article.published_at}</p>
+            </div>
             <p>{article.summary}</p>
-            <Link key={article.id} to={`/article/${article.id}`} className={"fred"+"summs"}>Read More</Link>
+            <Link key={article.id} to={`/article/${article.id}`} className={"fred" + "summs"}>Read More</Link>
           </div>
         </div>
       ))}

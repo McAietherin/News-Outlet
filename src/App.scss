@@ -106,6 +106,10 @@ nav {
     background-color: #171717;
 }
 
+#titles {
+    display: none;
+}
+
 .cont3 {
     max-width: 1170px;
     margin: auto;
@@ -370,7 +374,6 @@ body {
     }
 }
 
-
 .padder {
     padding: 134px 0;
 }
@@ -492,7 +495,34 @@ body {
         height: 93px;
         width: 100%;
         box-shadow: 0 3px 8px 2px #0000008f;
-        @include position(sticky, 0px, $zi: 1);
+        @include position(fixed, -5px, 0px, 1);
+    }
+
+    .newsnow-container {
+        section {
+            border-left: none;
+        }
+
+        li::before {
+            content: '' !important;
+        }
+    }
+
+    .contents #titles {
+        margin-bottom: 31px;
+    }
+
+    #test {
+        margin-top: 118px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .flegges,
+    .flegges2 {
+        grid-template-columns: 1fr;
     }
 
     #logo {
@@ -574,6 +604,16 @@ body {
 
     .bgthumb div {
         width: 100%;
+    }
+
+    #titles {
+        display: block !important;
+        width: 500px;
+        height: 40px;
+    }
+
+    .imgthumb div {
+        display: none;
     }
 
     #logi {
